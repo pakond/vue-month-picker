@@ -309,7 +309,7 @@ export default {
 }
 
 .month-picker__year input:focus {
-  border: 1px solid #55b0f2;
+  border: 1px solid #2c4469;
 }
 
 .month-picker__year div,
@@ -379,10 +379,10 @@ export default {
 .month-picker__month.selected,
 .month-picker__month.selected-range-first,
 .month-picker__month.selected-range-second {
-  background-color: #55b0f2;
+  background-color: #2c4469;
   color: #ffffff;
   border-radius: 5px;
-  box-shadow: inset 0 0 3px #3490d2, 0px 2px 5px rgba(85, 176, 242, 0.2);
+  box-shadow: inset 0 0 3px #2c4469, 0px 2px 5px rgba(85, 176, 242, 0.2);
   text-shadow: 0 2px 4px rgba(0, 0, 0, 0.25);
 }
 
@@ -392,7 +392,7 @@ export default {
 }
 
 .month-picker__month.selected-range {
-  background-color: #7eb9e2;
+  background-color: #2c4469;
   color: #ffffff;
   border-color: transparent;
 }
